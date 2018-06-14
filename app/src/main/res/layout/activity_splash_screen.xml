@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbfcfafa"
+    tools:context=".SplashScreen">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:alpha=".4"
+        android:src="@drawable/img" />
+
+
+    <TextView
+        android:id="@+id/titles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Interview Question"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textColor="#252525"
+         />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@id/titles"
+        android:layout_centerInParent="true"
+        android:src="@drawable/lco_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/logo"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/Titile"
+        android:layout_marginBottom="80dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#252525"
+        />
+
+</RelativeLayout>
